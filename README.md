@@ -1,12 +1,5 @@
 # dns-cache
 
-DNS cache with TTL expiration + LRU eviction. Backed by a DLL (for LRU) and a SortedList (expiry-ordered index). This version:
-- **Removes the `seq` tie-breaker** (uses only `(expires_at, domain)`)
-- Adds an **IPv4 validator**
-- Wraps the expiry tuple into a **`BSTKey` dataclass**
-- Ships a `requirements.txt` that **includes pytest**
-- Shows how to set up the project using **uv**
-
 ## Quick start (with `uv`)
 
 ```bash
