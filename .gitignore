@@ -1,0 +1,48 @@
+# --- Python bytecode / artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+.env/
+.env.*
+*.env
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# --- Test & coverage artifacts ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- uv specific ---
+.uv/
